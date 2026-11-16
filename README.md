@@ -1,6 +1,6 @@
 # PUM3 ChIP-seq and R-loop DRIP-seq analysis
 
-This repository currently contains an R workflow for summarizing ChIP-seq peak signal from a BigWig track, annotating peaks to nearby genes, and generating peak- and gene-level summaries. The repository name also refers to R-loop DRIP-seq, but the available script focuses on BED peak regions and BigWig signal; additional DRIP-seq analysis steps are not currently documented here.
+This repository currently contains an R workflow for summarizing ChIP-seq peak signal from a BigWig track, annotating peaks to nearby genes, and generating peak- and gene-level summaries. The available script focuses on BED peak regions and BigWig signal; additional DRIP-seq analysis steps are not currently documented here.
 
 > **Research-use note:** This is a study-oriented analysis script, not a validated clinical or turnkey pipeline. It expects local input files and a particular genome annotation. Review the code, confirm coordinate conventions and reference-genome compatibility, and adapt file paths before use. The underlying sequencing data are not included.
 
